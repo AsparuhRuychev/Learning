@@ -1,0 +1,102 @@
+
+body
+{
+    overflow: hidden;
+}
+
+.background
+{
+    background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+	background-position: right 0px bottom 20px;
+    height: 100vh;
+}
+
+button
+{
+    width: 100px;
+    height: 50px;
+    display: block;
+    background-color: #EF494C;
+    border: 0px;
+    border-radius: 20px;
+    margin: 10px;
+    color: #292668;
+    font-size: 18px;
+    font-family:  fantasy;
+}
+
+.rockets
+{
+    background-image: url(../img/rocket.png);
+    background-size: 100%;
+    width: 66px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+}
+
+#rocket1
+{
+    left: 20%;
+    bottom: 0px;
+}
+
+#rocket2
+{
+    left: 40%;
+    bottom: 0px;
+}
+
+#rocket3
+{
+    left: 60%;
+    bottom: 0px;
+}
+
+#rocket4
+{
+    left: 80%;
+    bottom: 0px;
+}
+
+.flames
+{
+    background-image: url(../img/thrust.png);
+    position: absolute;
+    height: 100px;
+    width: 44px;
+    display: none;
+}
+
+#flame1
+{
+    left: calc(20% + 11px);
+    bottom: -96px;
+}
+
+#flame2
+{
+    left: calc(40% + 11px);
+    bottom: -96px;
+}
+
+#flame3
+{
+    left: calc(60% + 11px);
+    bottom: -96px;
+}
+
+#flame4
+{
+    left: calc(80% + 11px);
+    bottom: -96px;
+}

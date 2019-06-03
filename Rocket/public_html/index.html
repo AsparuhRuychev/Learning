@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="RocketApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="RocketApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="RocketApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" ng-app="RocketApp" class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Rocket App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body ng_controller="MainContrl">
+        <div id="container" class="container-fluid background">
+            <button ng_click="start()">Start</button>
+            <button ng_click="stop()">Stop</button>
+            <div class="rockets" id="rocket1"></div>
+            <div class="rockets" id="rocket2"></div>
+            <div class="rockets" id="rocket3"></div>
+            <div class="rockets" id="rocket4"></div>
+            <div class="flames" id="flame1"></div>
+            <div class="flames" id="flame2"></div>
+            <div class="flames" id="flame3"></div>
+            <div class="flames" id="flame4"></div>
+            
+        </div>
+        
+        <script src="lib/angular.js" type="text/javascript"></script>
+        <script src="lib/angular-route.js" type="text/javascript"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>
