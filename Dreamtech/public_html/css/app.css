@@ -1,0 +1,2206 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+.affix 
+{
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.affix + .container-fluid 
+{
+    padding-top: 70px;
+}
+
+.comment p
+{
+    text-indent: 20px;
+}
+.comment
+{
+    margin-top: 25px;
+}
+.callus
+{
+    height: 560px;
+}
+.g-recaptcha div
+{
+    width: 100% !important;
+}
+
+body 
+{
+    padding: 0;
+    padding-bottom: 0px;
+    font-size: 12px;
+    display: block;
+    position: relative;
+    height: auto;
+    /*min-height:calc( 3 * ( 100vh - 250px ));*/
+}
+.box a
+{
+    height: 100%;
+    width: 100%;
+}
+.dhacademy
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/logo-DH.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.dj
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/logo-DJ.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+.membyte
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/MB-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+
+.international
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/logo-International.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+
+.lang 
+{
+    float: right;
+    right: 0px;
+    width:  50px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+    color: white;
+    font-style: italic;
+}
+.bg-lang 
+{
+    background-image: url(../images/bg-flag.png);
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.en-lang 
+{
+    background-image: url(../images/en-flag.png);
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: black;
+}
+.mycontainer 
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: calc(100vh - 250px);
+}
+.modal 
+{
+    z-index: 10040 !important;
+}
+.myrow 
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+footer
+{
+    height: auto;
+    background-color: #ccc;
+    color: white;
+}
+
+footer a
+{
+    color:#fff; 
+    font-size: 16px;
+}
+
+footer a:hover
+{   
+    color: #CCC;
+    text-decoration: underline;  
+    font-size: 18px;
+}
+.footer-menu a 
+{
+    color:#0E1130;
+}
+
+.footer-menu a:hover
+{
+    color: #4D4E54;
+    text-decoration: underline;  
+    font-size: 18px;
+}
+
+.footer-row
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #80828E;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.footer-container
+{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+.footer-container-about
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #0E1130;
+    font-size: 18px;
+}
+
+.footer-header-container
+{   
+    color: #fff;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.mail-icon
+{
+    font-size: 45px;
+}
+
+footer h5
+{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: #80828E;
+}
+
+
+.us
+{
+    text-align: justify;  
+    color: white;
+    text-indent: 20px;
+    margin: 20px 10px 20px 10px;
+    font-size: 18px;
+}
+
+.red
+{
+    font-weight: bold;
+    color: #7a1215;
+    font-size: 24px;
+}
+
+.blue
+{
+    font-weight: bold;
+    color: #0e1130;
+    font-size: 24px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] 
+{
+    background-color: #090931;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover 
+{
+    background-color: #771E0C;
+}
+
+.moreservicescontainer
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*firstcontainer*/
+.firstcontainer
+{
+    padding-top: 50px;
+    /*min-height: calc(100vh - 250px);*/
+    height: 100%;
+    /*    parallax effect*/
+    background-image: url(../images/computer.jpg);
+    background-attachment: fixed;
+    background-position:  top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*secondcontainer*/
+.secondcontainer
+{
+    background-color: #ccc;
+    padding: 0px;
+    margin: 0px;
+    /*min-height: calc(100vh - 200px);*/
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*thirdcontainer*/
+.thirdcontainer
+{
+    padding: 0px;
+    background-image: url(../images/image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.thirdcontainer h3, .firstcontainer h2
+{
+    color:white;
+}
+.thirdcontainer h3
+{
+    margin-bottom: 45px;
+}
+#myModal1
+{
+    padding-top: 50px;
+}
+
+.modal-body p
+{
+    text-indent: 50px;
+    text-align: justify;
+}
+.modal-body h4, .modal-body h5
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+.modal-header h3
+{
+    text-shadow: 5px 1px 14px rgba(0,0,0,0.44);
+}
+
+#bs-dreamtech-navbar-collapse-1
+{
+    text-align: -webkit-right;
+}
+
+.container2
+{
+    text-align: -webkit-center;
+    padding-bottom: 20px;
+}
+@keyframes slidein-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slidein-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidein-right1 {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slidein-left1 {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoom-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes top{
+    0%{top:-1000px;}
+    100%{top: 0px;}
+}
+
+@keyframes bottom{
+    0%{bottom:-1000px;}
+    100%{bottom: 475px;}
+}
+
+.left1
+{
+    animation: 4s slidein-left1;
+    z-index: 1000;
+}
+
+.right1
+{
+    animation: 4s slidein-right1;
+}
+
+.left
+{
+    animation: 2s slidein-left;
+}
+
+.right
+{
+    animation: 2s slidein-right;
+}
+
+.card-service
+{
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid #72726F;
+    border-radius: 20px;
+}
+
+.card-cover
+{
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+.card-details
+{
+    height: auto;
+    position: absolute;
+    top: 275px;
+    bottom: 0px;
+    padding: 0px 20px;
+    border-top-color: transparent;
+    transition: .4s top ease-in-out 0s;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.service-name
+{
+    padding-bottom: 20px;
+}
+
+.card-details:hover, .card-details:active, .card-details:focus
+{
+    top: 150px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 0 0 10px 10px;
+}
+
+.card-static
+{
+    background-image: url(../images/static.png);
+}
+
+.card-dynamic
+{
+    background-image: url(../images/dynamic.png);
+}
+
+.card-shop
+{
+    background-image: url(../images/shop.png);
+}
+
+.card-maintance
+{
+    background-image: url(../images/maintance.png);
+}
+
+.card-logo
+{
+    background-image: url(../images/logo.png);
+}
+
+.card-banner
+{
+    background-image: url(../images/banner.png);
+}
+
+.card-mobile
+{
+    background-image: url(../images/mobile.png);
+}
+
+.card-facebook
+{
+    background-image: url(../images/facebook.png);
+}
+
+.card-360-degrees
+{
+    background-image: url(../images/360-degrees.png);
+}
+
+
+
+
+
+
+@media screen and (max-width: 373px) 
+{
+
+    .card-service
+    {
+        width: 320px;
+    }
+    .us
+    {
+        margin: 0px;
+    }
+    .col-md-7
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 100px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/smallestdreamtech.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 100px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .callus
+    {
+        width: 100%;
+        padding-bottom: 10px;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 280px;
+        margin: 5px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 11px;
+        width:80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 13px;
+        color: white;
+    }
+
+    .card-description
+    {
+        text-align: justify;
+        font-size: 14px;
+        text-indent: 15px;
+        margin: 10px;   
+    }
+
+    .box
+    {
+        height: 280px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 280px;;
+    }
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #0e1130 ;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:white !important;
+    }
+
+    .container2
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media screen and (min-width: 374px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 100px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/smallestdreamtech.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 100px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .contacts a
+    {
+        color: white;
+    }
+    
+    .contacts a:hover
+    {
+        font-size: 18px;
+    }
+    .callus
+    {
+        width: 100%;
+        padding-bottom: 10px;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 280px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 11px;
+        width:80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 14px;
+        color: white;
+    }
+
+    .card-description
+    {
+        text-align: justify;
+        font-size: 16px;
+        text-indent: 15px;
+        margin: 10px;   
+    }
+
+    .box
+    {
+        height: 280px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 280px;;
+    }
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #0e1130 ;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:white !important;
+    }
+}
+
+@media screen and (min-width: 400px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 100px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/smalldreamtech.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 100px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .callus
+    {
+        width: 100%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 360px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 16px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 360px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 360px;;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #0e1130 ;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:white !important;
+    }
+
+}
+
+@media screen and (min-width: 541px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtech.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .callus
+    {
+        width: 100%;
+        position: relative;
+        animation: top 2s;
+    }
+    .comment
+    {
+        height: 400px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 16px;
+        width: 80%
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 18px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 400px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 400px;;
+    }
+    .navbar-nav li:hover
+    {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #0e1130 ;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:white !important;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dtbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 100%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 500px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 19px;
+        width:80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 22px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 420px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 420px;;
+    }
+    .navbar-nav li:hover
+    {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #0e1130 ;
+
+    }
+
+    .navbar-nav li:hover a
+    {
+        color:white !important;
+    }
+}
+
+@media screen and (min-width: 767px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dtbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 100%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 300px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 11px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .box
+    {
+        height: 300px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 300px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 800px) 
+{
+    .firstcontainer
+    {
+        min-height: 880px;
+    }
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        display: none;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 100%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 10%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        position: relative;
+        animation: top 2s;
+    }
+    .comment
+    {
+        height: 330px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 16px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 330px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 330px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 974px) 
+{
+
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }
+
+    .container 
+    {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toplcontainer
+    {
+        background-image: url(../images/dreamtechlogo.png);
+        height: 150px;
+        display: inline-block;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        z-index: 1000;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 80%;
+        /*left: 20%;*/
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 10%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 332px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 15px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 332px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 3320px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 1020px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }
+
+    .container 
+    {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        background-image: url(../images/dreamtechlogo.png);
+        height: 150px;
+        display: inline-block;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        z-index: 1000;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 80%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 10%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 380px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 19px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 380px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 380px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 1300px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        background-image: url(../images/dreamtechlogo.png);
+        height: 150px;
+        display: inline-block;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        z-index: 1000;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 80%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 10%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        position: relative;
+        animation: top 2s;
+    }
+
+    .comment
+    {
+        height: 300px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 15px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 300px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 300px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 1351px) 
+{
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .toplcontainer
+    {
+        background-image: url(../images/dreamtechlogo.png);
+        height: 150px;
+        display: inline-block;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        z-index: 1000;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 80%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 10%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        animation: top 2s;
+        position: relative;
+        z-index: 1;
+    }
+    .comment
+    {
+        height: 365px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 18px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 365px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 3650px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 1600px) 
+{
+
+    .myjumbotron 
+    {
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 0px;
+        z-index: 1000;
+    }
+
+    .container1
+    {
+        width: 70%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 1000;
+    }    
+
+    .container 
+    {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .toplcontainer
+    {
+        background-image: url(../images/dreamtechlogo.png);
+        height: 150px;
+        display: inline-block;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        z-index: 1000;
+    }
+
+    .toprcontainer 
+    {
+        background-image: url(../images/dreamtechbanner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 80%;
+        text-align: -webkit-center;
+        height: 150px;
+        background-color: #ccc;
+        position: relative;
+        z-index: 1000;
+    }  
+
+    .contacts
+    {
+        display: inline-block;
+        float: right;
+        position: relative;
+        bottom: 475px;
+        right: 30%;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        animation: bottom 2s;
+    }
+
+    .callus
+    {
+        padding-top: 10px;
+        width: 50%;
+        animation: top 2s;
+        position: relative;
+        z-index: 1;
+        height: 550px;
+    }
+    .comment
+    {
+        height: 440px;
+        position: relative;
+        background-image: url(../images/comments.png);
+        background-size: 100% 100%;
+    }
+
+    .comment-message
+    {
+        color: white;
+        transform: translate(-50%, -50%);
+        position: absolute; 
+        top: 45%; 
+        left: 50%; 
+        text-align: justify; 
+        font-size: 19px;
+        widows: 80%;
+    }
+
+    .comment-name
+    {
+        color: white;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .comment-footer
+    {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 85%;
+        left: 50%;
+        font-size: 19px;
+        color: white;
+    }
+
+    .box
+    {
+        height: 440px;
+        background:rgba(255,255,255,0.7);
+    }
+    .box a
+    {
+        height: 440px;;
+    }
+    .navbar-nav li
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .navbar-nav li:hover
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #f8f8f8;
+
+    }
+    .navbar-nav li:hover a
+    {
+        color:#2d2b2b !important;
+    }
+    .navbar-nav li:last-child
+    {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+}
+

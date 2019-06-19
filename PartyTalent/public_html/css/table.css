@@ -1,0 +1,25 @@
+tr:nth-child(even) {
+    background-color: #FFED91;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffc299;
+}
+
+table th
+{
+    font-size:18px;
+}
+
+table td
+{
+    font-size: 15px;
+}
+
+table
+{
+    margin: auto;
+    font-family: partyFont;
+    width: 100%;
+}
+

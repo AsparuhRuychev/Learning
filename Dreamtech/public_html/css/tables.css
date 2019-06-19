@@ -1,0 +1,263 @@
+@media screen and (min-width: 320px) 
+{ 
+    table 
+    {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        z-index: 10;
+    }
+
+    table, th, td 
+    {
+        border: solid black;
+        border-collapse: collapse;
+        padding: 1px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    th
+    {
+        text-align: center;
+        font-weight: bold;
+        color:#7a1215; 
+    }
+
+    tr:nth-child(even) {
+        background-color: #ccc;
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    h1
+    {
+
+        text-align: center;
+        font-weight: bold;
+        color: white;  
+    }
+    h3
+    {
+        color:#0C1430;
+        font-weight: bold; 
+    }
+
+    .economy
+    {
+        background-color: #59E279;
+        text-align: center;
+    }
+
+    .standart
+    {
+        background-color: #E5CF51;
+        text-align: center;
+    }
+
+    .full
+    {
+        background-color: #EF8720;
+        text-align: center;
+    }
+
+    form
+    {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 541px) 
+{
+
+    table
+    {
+        width:80%;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        z-index: 10;
+    }
+
+    table, th, td
+    {
+        border: solid black;
+        border-collapse: collapse;
+        padding: 1px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    th, td
+    {
+        padding:5px;    
+    }
+
+    th
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color:#7a1215; 
+    }
+
+    tr:nth-child(even) {
+        background-color: #ccc;
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    h1
+    {
+        text-align: center;
+        font-weight: bold;
+        color: white;  
+    }
+
+    h3
+    {
+        color:#0C1430;
+        font-weight: bold; 
+    }
+
+    .economy
+    {
+        background-color: #59E279;
+    }
+
+    .standart
+    {
+        background-color: #E5CF51;
+    }
+
+    .full
+    {
+        background-color: #EF8720;
+    }
+
+    form
+    {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 850px) 
+{
+
+    table
+    {
+        width:80%;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        z-index: 10;
+    }
+
+    table, th, td
+    {
+        border: solid black;
+        border-collapse: collapse;
+        padding: 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    th, td
+    {
+        padding:5px;    
+    }
+
+    th
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #7a1215; 
+    }
+
+    tr:nth-child(even) {
+        background-color: #ccc;
+    }
+
+    tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    h1
+    {
+        text-align: center;
+        font-weight: bold;
+        color: white; 
+        padding-bottom: 10px;
+    }
+
+    h3
+    {
+        color:#0C1430;
+        font-weight: bold;
+    }
+
+    .economy
+    {
+        background-color: #59E279;
+    }
+
+    .standart
+    {
+        background-color: #E5CF51;
+    }
+
+    .full
+    {
+        background-color: #EF8720;
+    }
+
+    form
+    {
+        padding-top: 15px;
+    }
+}
+
+@keyframes slidein-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slidein-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoom-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.table-right
+{
+    animation: 3s slidein-left;
+}
+
+.table-left
+{
+    animation: 3s slidein-right;
+}
+
+.table-third
+{
+    animation: zoom-in 3s;
+}
+
+.table-right tbody tr td:last-child, .table-left tbody tr td:last-child
+{
+    text-align: center;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+    <html lang="en" ng-app="DreamTechApp" class="no-js">
+    <head>
+        <title>Dream Tech</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="dreamtech,website development, mobile development, web design,logo,banner,website,webpage">
+        <meta name="description" content="We offer a complete online vision of your business by starting a well-designed logo and banner and getting to the same-looking site. Contact us to get the best offer for a quality and successful online presence in your business.">
+        <meta property="og:image" content="https://dreamtechbg.com/images/font1.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dreamtechbg.com" />
+        <meta property="og:title" content="Creative and awesome design for your new website or app" />
+        <meta property="og:description" content="We offer a complete online vision of your business by starting a well-designed logo and banner and getting to the same-looking site. Contact us to get the best offer for a quality and successful online presence in your business."/>
+        <meta name="google-site-verification" content="v78IrF4dptnBRRTrLcw7v7kyzNAYeZml6-M0uRAhFGg" />
+        <link rel="canonical" href="https://dreamtechbg.com/index_bg.html#/main" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href="css/tables.css" rel="stylesheet" type="text/css"/>
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/ico" href="images/dreamtechlogo.png" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134787764-1"></script>
+        <script>
+          window.language_code = 'bg';
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-134787764-1');
+        </script>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "Dream Tech",
+              "url": "https://dreamtechbg.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+        </script>
+    </head>
+    <body ng_controller="MainContrl">
+        <div class="jumbotron myjumbotron">
+            <div class="container-fluid toprcontainer"></div> 
+            <div class="container-fluid toplcontainer"></div>
+        </div>
+            <nav class="navbar navbar-default" data-spy="affix" data-offset="197">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li ng_click="changeView('main')"><a href="#/main">За нас</a></li>
+                        <li ng_click="changeView('services')"><a href="#/services">Услуги</a></li>
+                        <li ng_click="changeView('moreservices')"><a href="#/moreservices">Допълнителни услуги</a></li>
+                        <li ng_click="changeView('offers')"><a href="#/offers">Абонаменти</a></li>
+                        <li ng_click="changeView('contact')"><a href="#/contact">Свържи се с нас</a></li>   
+                    </ul>
+                    <button class="lang en-lang" ng_click="changeLang('en')"></button> 
+                    <button class="lang bg-lang" ng_click="changeLang('bg')"></button>
+                </div>    
+            </nav>
+        <div class="container-fluid mycontainer">
+            <div class="row myrow">  
+                    <div class="col-md-12 firstcontainer" ng-view>    
+                    </div>
+            </div>
+            <div class="row myrow">
+                <div class="col-md-12 secondcontainer" >
+                    <h3>Вижте какво казват нашите клиенти за предоставените услуги:</h3>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item comment right1">
+                            <p class="comment-message">Изключителни професионалисти, обръщат внимание на всеки един детайл, притежават нужните качества, за да бъде един проект перфектно изпипан. Благодаря на целия екип за търпението, отдадеността и коректността! Дерзайте!</p><p class="comment-name">Марин Иванов</p><p class="comment-footer"> Проект <a href="//partytalent.bg">Party Talent</a></p>
+                        </div>
+                        <div class="item comment">
+                            <p class="comment-message">С прекрасно впечатление съм от екипа на фирма DreamTech, който със своите креативни идеи и професионализъм перфектно изпълни зададената им работа. Коректност и отзивчивост, компетентност и качествено изпълнение са отличителните черти на DreamTech. Благодаря ви, DreamTech!</p><p class="comment-name">Николай Чолаков</p><p class="comment-footer">Дизайн на визитка</p>
+                        </div>
+                        <div class="item comment left1">
+                            <p class="comment-message">Изключителни професионалисти, обръщат внимание на всеки един детайл, притежават нужните качества, за да бъде един проект перфектно изпипан. Благодаря на целия екип за търпението, отдадеността и коректността! Дерзайте!</p><p class="comment-name">Марин Иванов</p><p class="comment-footer"> Проект <a href="//partytalent.bg">Party Talent</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row myrow">
+                <div class="col-md-12 thirdcontainer">
+                    <h3> Нашите партньори:</h3>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item box" style="animation: zoom-in 4s;">
+                            <div ng-click="openURL('//dhacademy.net')" class="dhacademy">
+                            </div>
+                        </div>
+                        <div class="item box" style="animation: zoom-in 4s;">
+                            <div class="dj">
+                            </div>
+                        </div>
+                        <div class="item box" style="animation: zoom-in 4s;">
+                            <div ng-click="openURL('//membyte.com')" class="membyte">
+                            </div>
+                        </div>
+                        <div class="item box" style="animation: zoom-in 4s;">
+                            <div class="international">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!-- Modal -->
+        <div id="myModal1" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">{{service.name}}</h3>
+              </div>
+              <div class="modal-body">
+                <p style="text-align: justify;">{{service.desc}}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Статичeн уеб сайт </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ние предлагаме изработка както на статични, така и на динамични уеб сайтове.
+                            Сега ще Ви представим предимствата и недостатъците на статичните сайтове.
+                        </p>
+                        <h4>Предимства:</h4>
+                        <p>1. Дизайнът на сайта е практически неограничен, за разлика от динамичните страници.</p>
+                        <p>2. Всяка страница може да е със съвсем различен дизайн от другата.</p>
+                        <p>3. По-бързо зареждане в сравнение с динамичния сайт.</p>
+                        <p>4. По-добра оптимизация за търсещи машини (SEO) и по-добро класиране на сайта в Google.</p>
+                        <p>5. Изработката на статичния сайт се прави на локално копие, което означава, че Вешия сайт е предпазен в случей на техническа неизправност или атаки към сайта, тъй като винаги има локално негово копие.</p>
+                        <h4>Недостатъци:</h4>
+                        <p>1. По-трудна поддръжка заради това, че тя може да се извършва само от уеб дизайнерите.</p>
+                        <p>2. Понякога по-сложни функционалности не са възможни на статичните уеб сайтове.</p>
+                        <h5>За кого е подходящ статичен сайт?</h5>
+                        <p>- За сайтове, които нямат голям брой от страници.</p>
+                        <p>- За сайтове, които нямат нужда от честа актуализация.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Динамичен уеб сайт</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ние предлагаме изработка както на статични, така и на динамични уеб сайтове.
+                            Сега ще Ви представим предимствата и недостатъците на динамичните сайтове.
+                        </p>
+                        <h4>Предимства:</h4>
+                        <p>1. Динамичните сайтове предоставят система за управление на съдържанието (CMS), което позволява актуализирането на съдържанието без намесата на уеб дизайнери.</p>
+                        <p>2. Позволява по-големи и по-сложни функционалности, тъй като при динамичните сайтове има сървърно ниво.</p>
+                        <h4>Недостатъци:</h4>
+                        <p>1. Динамичните сайтове  по-трудни се оптимизират за търсещи машини и се класират по-назад в търсачките.</p>
+                        <p>2. В повечето случаи няма резервно копие на сайта, тъй като изработката на съдържанието става в самата база данни.</p>
+                        <p>3. По-уязвими са за хакерски атаки</p>
+                        <h5>За кого е подходящ динамичен сайт?</h5>
+                        <p>- За сайтове, които имат голям брой от страници.</p>
+                        <p>- За сайтове, които имат нужда от честа актуализация.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row footer-row">
+                <div class="col-xs-12 col-md-4 footer-container">
+                    <div class="footer-header-container">
+                        <div>
+                            <i class="fa fa-envelope mail-icon"></i>
+                        </div>
+                        <a  href="mailto:office@dreamtechbg.com">office@dreamtechbg.com</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 footer-container">
+                    <div class="footer-header-container">
+                        <div>
+                            <i class="fas fa-mobile-alt mail-icon" aria-hidden="true"></i>
+                        </div>
+                        <a  href="tel:+359893677836">+359 893 677 836</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 footer-container">
+                    <div class="footer-header-container">
+                        <div>
+                            <i class="fas fa-mobile-alt mail-icon" aria-hidden="true"></i>
+                        </div>
+                        <a  href="tel:+359897507303">+359 897 507 303</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-about">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div >
+                            <p><span class="red">D</span><span class="blue">ream</span><span class="red">T</span><span class="blue">ech</span> е малка фирма с разнообразна дейност - от поддръжка и обслужване на компютърни системи и софтуери (както еднократно, така и абонаментно), създаване и поддържане на  WEB- сайтове, направа на рекламни материали  -  до въвеждане, актуализиране и обработка на различни видове данни.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6" style="margin-top: 5%;">
+                        <div class="row footer-menu">
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                <ul>
+                                    <li ng_click="changeView('main')"><a href="#/main">За Нас</a></li>
+                                    <li ng_click="changeView('services')"><a href="#/services">Услуги</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                <ul>
+                                    <li ng_click="changeView('moreservices')"><a href="#/moreservices">Допълнителни услуги</a></li>
+                                    <li ng_click="changeView('offers')"><a href="#/offers">Абонаменти</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                <ul>
+                                    <li ng_click="changeView('contact')"><a href="#/contact">Свържи се с нас</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5>Copyright &copy; Dream Tech LTD 2019 | Всички права запазени!</h5>
+        </footer>
+        <script src="lib/angular.js"></script>
+        <script src="lib/angular-route.js"></script>
+        <script src="js_common/app.js"></script>
+        <script src="lib/jquery-1.11.2.js" type="text/javascript"></script>    
+        <script src="lib/bootstrap.min.js"></script>
+        <script src="js_common/owl.carousel.js" type="text/javascript"></script>
+        <script src="js_common/moreservices.js"></script>
+        <script src="js_common/main.js"></script>
+        <script src="js_common/offers.js"></script>
+        <script src="js_common/contacts.js"></script>
+        <script src="js_common/services.js"></script> 
+    </body>
+</html>

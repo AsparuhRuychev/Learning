@@ -2,16 +2,48 @@ body
 {
     height: 100vh;
 }
-.absolute
+
+.main-container
 {
     width: 1100px;
     margin: 0 auto;
 }
 
 .middle {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-row
+{
+    background-color: #F7F7F7;
+    border-bottom: 1px solid grey;
+}
+
+.welcome-container
+{
+    padding: 20px;
+    text-align: justify;
+}
+
+.icon-container
+{
+    padding: 20px;
+    text-align: right;
+}
+
+.collapse-container
+{
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-top: 24px; 
+    font-size: 15.5px;
+}
+
+.second-row
+{
+    margin-top: 25px;
 }

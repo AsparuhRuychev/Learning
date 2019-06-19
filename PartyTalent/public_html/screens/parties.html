@@ -1,0 +1,22 @@
+<div class = "mycontainer" ng_controller="MainContrl">
+    <div class="galery">
+        <div class="promotion">Изпратете вашето запитване онлайн и получете 10% отстъпка.</div>
+        <div ng-repeat="party in parties">
+            <h3>{{ party.category }}</h3>
+            <ul class="list-group" >
+                <li ng-repeat="element in party.list" class="list-group-item" data-toggle="modal" data-target= " {{ element.target }}" >{{ element.name }}</li>
+            </ul>
+        </div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="new">Ако не намирате вашия любим герой, свържете се с нас, за да обсъдим какво може да се направи.</div>
+    </div>
+</div>
+<div><button ng_click="changeView('Galery')" class="button button7"></button></div>
+<div><button ng_click="changeView('Main')" class="button button6"></button></div>
+<div><button ng_click="changeView('ForUs')" class="button button1"></button></div>
+<div><button ng_click="changeView('Parties')" class="button button2"></button></div>
+<div><button ng_click="changeView('Us')" class="button button3"></button></div>
+<div><button ng_click="changeView('Prices')" class="button button4"></button></div>
+<div><button ng_click="changeView('Contacts')" class="button button5"></button></div>

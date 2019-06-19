@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="SuperTechApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="SuperTechApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="SuperTechApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="PartyTalentApp" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Party Talent</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Partytalent,party,birthday,teambuilding,wedding,animator">
+        <meta name="description" content="Ние предлагаме: 
+             Детски партита
+             Рождени дни
+             Семейни партита
+             Фирмени партита
+             Сватби
+             Тиймбилдинги">
+        <meta property="og:image" content="https://partytalent.bg/img/font1.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://partytalent.bg" />
+        <meta property="og:title" content="Професионално организиране и водене на събития" />
+        <meta property="og:description" content="Ние предлагаме: 
+             Детски партита
+             Рождени дни
+             Семейни партита
+             Фирмени партита
+             Сватби
+             Тиймбилдинги
+             " />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="canonical" href="https://partytalent.bg/#/Main" />
+        <!--<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>-->
+        <link href="css/clouds.css" rel="stylesheet" type="text/css"/>  
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <link href="css/table.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+        <meta name="google-site-verification" content="FxDSaKhjIsburg-VyxQGj7C7PJrVfdIizp88iNPXhyc" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134787764-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-134787764-2');
+        </script>
+                <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "Party Talent",
+              "url": "https://partytalent.bg",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+        </script>
+    </head>
+    <body ng_controller="MainContrl">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron myjumbotron">
+      <div class="container-fluid topcontainer">
+      </div>
+
+    </div>
+    <div class="navContainer">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" ng_click="closeNav()">&times;</a>
+            <a ng_click="[changeView('Main'), closeNav()]" href="">Начало</a>
+            <a ng_click="[changeView('ForUs'), closeNav()]" href="">За нас</a>
+            <a ng_click="[changeView('Parties'), closeNav()]" href="">Видове партита</a>
+            <a ng_click="[changeView('Us'), closeNav()]" href="">Защо да изберете нас?</a>
+            <a ng_click="[changeView('Galery'), closeNav()]" href="">Галерия</a>
+            <a ng_click="[changeView('Prices'), closeNav()]" href="">Цени</a>
+            <a ng_click="[changeView('Contacts'), closeNav()]" href="">Свържете се с нас</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" ng_click="openNav()">&#9776;</span>
+    </div>
+    <div class="container-fluid mycontainer">
+        <div class="row myrow">
+            <div class="col-lg-10 lcontainer">
+                <div class="animation">
+                    <div class="cloud x1"></div>
+                    
+                    <div class="cloud x2"></div>
+                    <div class="cloud x3"></div>
+                    <div class="cloud x4"></div>
+                    <div class="cloud x5"></div>
+                </div>
+                <div  class="animation" ng-view></div>  
+                <p></p>
+            </div>
+            <div class="col-lg-2 rcontainer">
+                <h2>Как се организира парти :</h2>
+                    <div class="col-xs-12" style="font-family: partyFont; font-size: 14px;">
+                        <p>Първото и най-съществено нещо е да намерим най-подходящото място за провеждането на рождения ден!</p>
+                        <p>Било то в заведение, вкъщи, детски парти клуб, детска градина, някъде на открито...</p>
+                        <p>Уговорете менюто за децата и вашите гости, ако е в заведение. Ако го правите у дома или на открито - осигурете храната и напитките вие!</p>
+                        <p>Много важно е да поръчате торта. Свързвате се с определен сладкарски цех или ние можем да го направим вместо вас.</p>
+                        <p>Носите я преди да дойдат гостите или след това, като е задължително тя да има сертификат!</p>
+                        <p>Мястото, което избирате трябва да е съобразено с броя на децата и родителите. Необходимо е да има достатъчно място за игра на децата.</p>
+                        <p>Няма да ви занимаваме с излишни съвети как и какво да правите, това са най-важните опорни точки за организиране на перфектния рожден ден.</p>
+                        <p>Когато имате трудности за избирането на определено заведение или наемането на такова, винаги можете да ни потърсите.</p>
+                        <p>Ние ще ви помогнем!</p>
+                    </div>
+                <h2>Контакти:</h2>
+                <div class="col-xs-10" style="padding: 2px;">
+                            <div class="col-xs-12 phones"><p> +359 877 690 678</p></div>
+                            <div class="col-xs-12 email"><p>office@partytalent.bg</p></div>
+                    </div>
+                    <div class="col-xs-2 facebook" ng-click="openURL('//facebook.com/PartyTalentKids')" >
+                        <a href="https://www.facebook.com/PartyTalentKids/" ></a>
+                    </div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row myrow">
+            <div class="col-md-12 downcontainer">
+                <h3>Нашите партньори:</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item" >
+                        <a href="http://thestreetbg.com/">
+                            <img src="img/thestreet.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item" > 
+                         <a href="https://www.facebook.com/severinokidsclub/">
+                             <img src="img/severino.png" alt=""/>
+                         </a>
+                    </div>
+                    <div class="item"> 
+                         <a href="https://www.ritmo.bg">
+                             <img src="img/ritm.png" alt="" style=""/>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /container -->
+    <div ng-repeat="party in parties">
+        <div class="modal" ng-repeat="element in party.list" id="{{ element.id }}">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">{{ element.name }}</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img src="{{ element.img_src }}" width="{{ element.img_width }}" height="{{ element.img_height }}" alt=""/>
+                        <p>{{ element.desc }}</p>
+                        <p>{{ element.desc2 }}</p>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row" >
+                        <video class="col-xs-12" controls id="videoModalTag" src="" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                    <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <footer>
+        <div class="row footer-row">
+            <div class="col-xs-12 col-md-6 footer-container">
+                <div class="footer-header-container">
+                    <div>
+                        <i class="fa fa-envelope mail-icon"></i>
+                    </div>
+                    <a  href="mailto:office@dreamtechbg.com">office@partytalent.bg</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 footer-container">
+                <div class="footer-header-container">
+                    <div>
+                        <i class="fas fa-mobile-alt mail-icon" aria-hidden="true"></i>
+                    </div>
+                    <a  href="tel:+359877690678">+359 877 690 678</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container-about">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div >
+                        <p>Ние сме ЕКИП. Постоянно търсещ нови таланти във воденето на партита. Мотивирани и готови да се сблъскат с трудностите, съпътстващи воденето на един рожден ден, имен ден, фирмено парти или ПРОСТО ТАКА. Главното ни оръжие е ЗАБАВЛЕНИЕТО, УСМИВКИТЕ, ИГРИТЕ и още много хитринки, скрити в чорапи, джобове и ръкави!</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6" style="margin-top: 5%;">
+                    <div class="row footer-menu">
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <ul>
+                                <li ng_click="changeView('ForUs')"><a href="">За Нас</a></li>
+                                <li ng_click="changeView('Parties')"><a href="">Видове партита</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <ul>
+                                <li ng_click="changeView('Us')"><a href="">Защо да изберете нас?</a></li>
+                                <li ng_click="changeView('Prices')"><a href="">Цени</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <ul>
+                                <li ng_click="changeView('Contacts')"><a href="">Свържете с нас</a></li> 
+                                <li ng_click="changeView('Galery')"><a href="">Галерия</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Designed and developed by <p class="dreamtech-p" ng-click="openURL('//dreamtechbg.com')">Dream Tech LTD</p></h4>
+        <h5>Copyright &copy; Party Talent 2019 | Всички права запазени!</h5>
+    </footer>
+      <script src="lib/jquery-1.11.2.js" type="text/javascript"></script> 
+      <script src="lib/angular.js"></script>
+      <script src="lib/angular-route.js"></script>
+      <script src="lib/bootstrap.js" type="text/javascript"></script>
+      <script src="js/app.js"></script>
+      <script src="js/galery.js" type="text/javascript"></script>
+      <script src="js/contacts.js"></script>
+      <script src="js/forus.js"></script>
+      <script src="js/parties.js"></script>
+      <script src="js/prices.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/us.js"></script>
+      <script src="js/owl.carousel.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    </body>
+</html>
+

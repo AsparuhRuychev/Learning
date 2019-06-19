@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ 
+<url>
+<loc>https://partytalent.bg/</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Main</loc>
+<lastmod>2019-06-06</lastmod>
+<changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://partytalent.bg/#/ForUs</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Parties</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Us</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Prices</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Contacts</loc>
+</url>
+<url>
+<loc>https://partytalent.bg/#/Galery</loc>
+</url>
+ 
+</urlset>
