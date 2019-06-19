@@ -102,6 +102,7 @@ body
     cursor: pointer;
     background-color: #FD8C03; 
     opacity: 0.6;
+    background-image: url(../img/buttons.png);
 }
 
 .button:hover
