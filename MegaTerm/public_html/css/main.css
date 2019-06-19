@@ -1,0 +1,562 @@
+/*common starts*/
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #cecece;
+}
+.row-no-margin
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-with-margin
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right-margin
+{
+    padding-right: 100px;
+}
+
+@keyframes fadeInUp{
+    from
+    {opacity:0;
+     transform:translate3d(0,100%,0)}
+    to
+    {opacity:1;
+     transform:none}
+}
+
+@keyframes fadeInDown{
+    from{opacity:0;
+        transform:translate3d(0,-100%,0)}
+    to{opacity:1;
+       transform:none}
+}
+
+@keyframes grow{
+    from {
+        height: 50px;
+    }
+    to{
+        height: 120px;
+    }
+}
+
+@keyframes opacity{
+    from {
+        opacity: 0.6;
+        font-size: 1rem;
+    }
+    to {
+        opacity: 1;
+        font-size: 1.3rem;
+    }
+}
+
+/*common finishes*/
+
+/*index starts*/
+
+.nav-container
+{
+    height: 100vh;
+    background-image: url(../img/fireplacefinal.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-container
+{
+    background-image: url(../img/logo.png);
+    height: 200px;
+    width: 200px;
+    background-color: #3D150F;
+    opacity: 0.7;
+    border-radius: 20px;
+    top: 10px;
+    position: absolute;
+}
+
+.logo-container:hover
+{
+    opacity: 1;
+    animation: 1s opacity;
+}
+
+.button
+{
+    border-radius: 20px;
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    background-color: #FD8C03; 
+    opacity: 0.6;
+}
+
+.button:hover
+{
+    text-decoration: underline;
+    animation: 1s opacity;
+    font-size: 1.3rem;
+    opacity: 1;
+}
+
+.button p
+{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.button1
+{
+    left: 1%;
+    top: 62%;
+}
+
+.button2
+{   
+    left: 15%;
+    top: 37%;
+}
+
+.button3
+{
+    left: 32%;
+    top: 14%;
+}
+
+.button4
+{
+    right: 32%;;
+    top: 14%;;
+}
+
+.button5
+{
+    right: 15%;;
+    top: 37%;; 
+}
+
+.button6
+{
+    right: 1%;;
+    top: 62%;;
+}
+
+footer
+{
+    height: auto;
+    background-color: #232328;
+    color: white;
+}
+
+footer a
+{
+    color:#fff; 
+    font-size: 16px;
+}
+
+footer a:hover
+{   
+    color: #CCC;
+    text-decoration: underline;  
+    font-size: 18px;
+}
+.footer-menu a 
+{
+    color:#0E1130;
+}
+
+.footer-menu a:hover
+{
+    color: #4D4E54;
+    text-decoration: underline;  
+    font-size: 18px;
+}
+
+.footer-row
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #333;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.footer-container
+{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+.footer-container-about
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #0E1130;
+    font-size: 18px;
+}
+
+.footer-header-container
+{   
+    color: #fff;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.mail-icon
+{
+    font-size: 45px;
+}
+
+footer h5
+{
+    text-align: center;
+    padding-top: 5px;
+    color: #777;
+    padding-bottom: 5px;
+    margin: 0px;
+    background-color: #333;
+}
+
+footer h6
+{
+    text-align: center;
+    padding-top: 15px;
+    color: #777;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.dreamtech-p
+{
+    color:#fff;
+}
+
+.dreamtech-p:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#map 
+{
+    width: 100%;
+    height: 400px;
+}
+
+/*index finishes*/
+
+/*zanas starts*/
+
+.picture-container
+{
+    animation: 1s fadeInUp;
+    background-image: url(../img/repairmen.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.text-container
+{
+    animation: 1s fadeInDown;
+}
+
+.main-parallax
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fire.jpg);
+}
+
+/*zanas finishes*/
+
+/*produkti starts*/
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.products-container
+{
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-image: url(../img/produkts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.products-container p
+{
+    text-align: center;
+}
+
+.products-container:hover
+{
+    opacity: 0.6;
+    background-color: gray;
+}
+
+/*produkti finishes*/
+
+/*obekti starts*/
+
+.object-container
+{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 0px
+}
+
+.object-text
+{
+    padding: 20px;
+}
+
+.object-text button
+{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #FD8C03;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.object-text button:hover
+{
+    text-decoration: underline;
+}
+
+.object-image
+{
+    background-image: url(../img/0002.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 0px;
+    height: 400px;
+}
+
+/*obekti finishes*/
+
+/*faq starts*/
+
+
+.faqcontainer
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.firstquestion
+{
+    background-color: #ededed;
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.firstquestion:hover
+{
+    background-color: #fff;
+}
+
+.secondquestion
+{
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.secondquestion:hover
+{
+    background-color: #fff;
+}
+
+#firstCont
+{
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.thirdquestion
+{
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.thirdquestion:hover
+{
+    background-color: #fff;
+}
+
+.fourthquestion
+{
+    background-color: #ededed; 
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fourthquestion:hover
+{
+    background-color: #fff;
+}
+
+#secondCont
+{
+    padding: 50px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.fifthquestion
+{
+    background-color: #ededed;  
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fifthquestion:hover
+{
+    background-color: #fff;
+}
+
+.sixthquestion
+{
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sixthquestion:hover
+{
+    background-color: #fff;
+}
+
+#thirdCont
+{
+    padding: 50px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.seventhquestion
+{
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.seventhquestion:hover
+{
+    background-color: #fff;
+}
+
+.eightquestion
+{
+    background-color: #ededed;
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.eightquestion:hover
+{
+    background-color: #fff;
+}
+
+#fourthCont
+{
+    padding: 50px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+/*faq finishes*/
+
+/*kontakti starts*/
+
+.contact-container
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.contact-parallax
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fireplace1.jpg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.callus a
+{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #495057;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*kontakti finishes*/
+
+@media screen and (min-width: 1200px)
+{
+    .navbar
+    {
+        visibility: hidden;
+        height: 0px;
+        padding: 0px;
+    }
+}
