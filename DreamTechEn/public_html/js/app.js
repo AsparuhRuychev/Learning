@@ -9,10 +9,13 @@ var myApp = angular.module('DreamTechApp', [
     'DreamTechApp.subscription',
     'DreamTechApp.contacts',
     'DreamTechApp.privacy-policy',
-    'ui.router'
+    'DreamTechApp.web-development',
+    'DreamTechApp.mobile-app-development',
+    'DreamTechApp.maintenance',
+    'DreamTechApp.graphic-design'
 ]).
         config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider, $urlRouterProvider) {
-                $locationProvider.hashPrefix('');
+
                 $('.owl-carousel').owlCarousel({
                     autoplay: false,
                     autoplayHoverPause: true,
@@ -33,22 +36,25 @@ var myApp = angular.module('DreamTechApp', [
                     }
                 });
                 $routeProvider.otherwise({redirectTo: '/about-us'});
+                $locationProvider.html5Mode(true);
             }]);
 
 myApp.controller('MainContrl', function ($scope, $location, $http, $rootScope) {
     $scope.changeView = function (path) {
         $location.path(path);
         window.scrollTo(0, 0);
-    };
-    $scope.showModal = function (el) {
-        $scope.service = $scope.services[el];
-        $('#myModal1').modal('show');
-    };
-    $scope.showMyModal = function (modlID) {
-        $('#' + modlID).modal('show');
+        $('.navbar').find('.collapse.in').collapse('hide');
     };
     $scope.openURL = function (url) {
         window.open(url, '_blank');
+    };
+    $scope.showHardware = function(){
+        document.getElementById("software-details-container").style.display = "none";
+        document.getElementById("hardware-details-container").style.display = "block";
+    };
+    $scope.showSoftware = function(){
+        document.getElementById("hardware-details-container").style.display = "none";
+        document.getElementById("software-details-container").style.display = "block";
     };
 });
 

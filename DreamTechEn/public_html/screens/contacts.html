@@ -1,16 +1,53 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+
+<h1>Get in touch with us</h1>
+<section style="margin-top: 50px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="card" style="background-color: transparent; border-radius: 20px;">
+                        <h5 class="card-header" style="background-color: #343A40; color: white;">Dream Tech Contact Form</h5>
+                        <div class="card-body">
+                            <form class="contact__form" method="post" action="mail.php">
+                                
+                                <!-- form message -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="contact__msg" style="display: none">
+                                            <p>Your message was sent successfully.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end message -->
+
+                                <!-- form element -->
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input name="name" type="text" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input name="email" type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input name="phone" type="text" class="form-control" placeholder="Phone" required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <div class="g-recaptcha" data-sitekey="6LdoLZEUAAAAAPlGBuUwOQ0vNTWaCnLkzUzpZAMH"></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <input name="submit" type="submit" class="button" value="Send Message">
+                                    </div>
+                                </div>
+                                <!-- end form element -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

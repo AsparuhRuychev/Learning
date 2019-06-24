@@ -10,7 +10,7 @@ angular.module('DreamTechApp.subscription', ['ngRoute'])
             }])
 
         .controller('SubscriptionCtrl', [function ($scope) {
-
+                
             }]);
 
 

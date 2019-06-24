@@ -1,0 +1,36 @@
+<div class="{{pageClass}}">
+    <div class="more-services-row">
+        <h1 style="color: #fff;">Еднократни услуги</h1>
+        <div class="row row-no-margin padding-40">
+            <div class="col-12 col-lg-6 margin-top-30">
+                <div class="more-services-container" ng-click="showHardware();">
+                    <h2 class="padding-20">Хардуер</h2>
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/imac.png" alt="Hardware"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 margin-top-30">
+                <div class="more-services-container" ng-click="showSoftware();">
+                    <h2 class="padding-20">Софтуер</h2>
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/imac.png" alt="Software"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-no-margin">
+            <div id="hardware-details-container" style="display: none;" class="col-12" ng-include="'screens/hardwaretable.html'">
+
+            </div>
+        </div>
+        <div class="row row-no-margin">
+            <div id="software-details-container" style="display: none;" class="col-12" ng-include="'screens/softwaretable.html'">
+
+            </div>
+        </div>
+    </div>
+</div>
